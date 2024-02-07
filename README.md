@@ -39,7 +39,7 @@ Clone this repository into your `steamapps\common\GarrysMod\garrysmod\addons` fo
 | Function                                                                              | Return | Description                                                                                                                                       |
 |---------------------------------------------------------------------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | entity:creationID()                                                                 | number | Returns the entity's creation ID.                                                                                                                 |
-| entity:children()                                                                   | array  | Returns entity's creation ID. Unlike E:id(), it will always increase and old values won't be reused.                                              |
+| entity:childrenIDs()                                                                   | table  | Returns the creation IDs of this entity's children as a key-value pair. Unlike E:id(), it will always increase and old values won't be reused.                                              |
 
 ### Tags
 
