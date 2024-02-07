@@ -132,7 +132,7 @@ e2function number entity:creationID()
 end
 
 __e2setcost(2)
-e2function array entity:children()
+e2function array entity:childrenIDs()
 	if not IsValid(this) then return self:throw("Invalid entity", nil) end
 	
 	return this:GetChildren()
