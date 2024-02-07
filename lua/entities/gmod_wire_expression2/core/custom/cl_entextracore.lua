@@ -4,7 +4,7 @@ E2Helper.Descriptions["runOnEntityRemove"] = "If set to 1, E2 will run when an e
 E2Helper.Descriptions["entityRemoveClk"] = "Returns the entity that was removed."
 
 E2Helper.Descriptions["creationID"] = "Returns the entity's creation ID."
-E2Helper.Descriptions["children"] = "Returns entity's creation ID. Unlike E:id(), it will always increase and old values won't be reused."
+E2Helper.Descriptions["childrenIDs"] = "Returns an array of creation IDs of this entity's children. Unlike E:id(), it will always increase and old values won't be reused."
 
 E2Helper.Descriptions["addTag"] = "Adds a tag to the entity or all entities in the array. The tag can be used to identify the entity in other E2s."
 E2Helper.Descriptions["removeTag"] = "Removes a tag from the entity or all entities in the array."
